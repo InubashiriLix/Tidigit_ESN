@@ -1,0 +1,109 @@
+start training 
+Epoch [1/500], Loss: 153.4421 
+✅ 最优模型已保存！Loss: 153.4421 | 保存至: best_model.pth 
+正确率: 0/336 
+Epoch [2/500], Loss: 91.4300 
+✅ 最优模型已保存！Loss: 91.4300 | 保存至: best_model.pth 
+正确率: 0/336 
+Epoch [3/500], Loss: 49.8753 
+✅ 最优模型已保存！Loss: 49.8753 | 保存至: best_model.pth 
+正确率: 0/336 
+Epoch [4/500], Loss: 26.0626 
+✅ 最优模型已保存！Loss: 26.0626 | 保存至: best_model.pth 
+正确率: 5/336 
+Epoch [5/500], Loss: 16.1015 
+✅ 最优模型已保存！Loss: 16.1015 | 保存至: best_model.pth 
+正确率: 7/336 
+Epoch [6/500], Loss: 10.8932 
+✅ 最优模型已保存！Loss: 10.8932 | 保存至: best_model.pth 
+正确率: 9/336 
+Epoch [7/500], Loss: 8.1623 
+✅ 最优模型已保存！Loss: 8.1623 | 保存至: best_model.pth 
+正确率: 11/336 
+Epoch [8/500], Loss: 6.1645 
+✅ 最优模型已保存！Loss: 6.1645 | 保存至: best_model.pth 
+正确率: 11/336 
+Epoch [9/500], Loss: 4.9219 
+✅ 最优模型已保存！Loss: 4.9219 | 保存至: best_model.pth 
+正确率: 12/336 
+Epoch [10/500], Loss: 4.0493 
+✅ 最优模型已保存！Loss: 4.0493 | 保存至: best_model.pth 
+正确率: 10/336 
+Epoch [11/500], Loss: 3.3954 
+✅ 最优模型已保存！Loss: 3.3954 | 保存至: best_model.pth 
+正确率: 13/336 
+Epoch [12/500], Loss: 3.0229 
+✅ 最优模型已保存！Loss: 3.0229 | 保存至: best_model.pth 
+正确率: 21/336 
+Epoch [13/500], Loss: 2.6909 
+✅ 最优模型已保存！Loss: 2.6909 | 保存至: best_model.pth 
+正确率: 15/336 
+Epoch [14/500], Loss: 2.4000 
+✅ 最优模型已保存！Loss: 2.4000 | 保存至: best_model.pth 
+正确率: 30/336 
+Epoch [15/500], Loss: 2.2048 
+✅ 最优模型已保存！Loss: 2.2048 | 保存至: best_model.pth 
+正确率: 42/336 
+Epoch [16/500], Loss: 2.0309 
+✅ 最优模型已保存！Loss: 2.0309 | 保存至: best_model.pth 
+正确率: 30/336 
+Epoch [17/500], Loss: 1.8838 
+✅ 最优模型已保存！Loss: 1.8838 | 保存至: best_model.pth 
+正确率: 54/336 
+Epoch [18/500], Loss: 1.7724 
+✅ 最优模型已保存！Loss: 1.7724 | 保存至: best_model.pth 
+正确率: 64/336 
+Epoch [19/500], Loss: 1.5646 
+✅ 最优模型已保存！Loss: 1.5646 | 保存至: best_model.pth 
+正确率: 63/336 
+Epoch [20/500], Loss: 1.5451 
+✅ 最优模型已保存！Loss: 1.5451 | 保存至: best_model.pth 
+正确率: 47/336 
+Epoch [21/500], Loss: 1.4147 
+✅ 最优模型已保存！Loss: 1.4147 | 保存至: best_model.pth 
+正确率: 60/336 
+Epoch [22/500], Loss: 1.4073 
+✅ 最优模型已保存！Loss: 1.4073 | 保存至: best_model.pth 
+正确率: 56/336 
+Epoch [23/500], Loss: 1.3042 
+✅ 最优模型已保存！Loss: 1.3042 | 保存至: best_model.pth 
+正确率: 60/336 
+Epoch [24/500], Loss: 1.2481 
+✅ 最优模型已保存！Loss: 1.2481 | 保存至: best_model.pth 
+正确率: 69/336 
+Epoch [25/500], Loss: 1.2486 
+正确率: 75/336 
+Epoch [26/500], Loss: 1.0807 
+✅ 最优模型已保存！Loss: 1.0807 | 保存至: best_model.pth 
+正确率: 76/336 
+Epoch [27/500], Loss: 1.0925 
+正确率: 85/336 
+Epoch [28/500], Loss: 1.0742 
+✅ 最优模型已保存！Loss: 1.0742 | 保存至: best_model.pth 
+正确率: 66/336 
+Epoch [29/500], Loss: 1.0265 
+✅ 最优模型已保存！Loss: 1.0265 | 保存至: best_model.pth 
+正确率: 90/336 
+Epoch [30/500], Loss: 0.9547 
+✅ 最优模型已保存！Loss: 0.9547 | 保存至: best_model.pth 
+正确率: 96/336 
+Epoch [31/500], Loss: 0.9518 
+✅ 最优模型已保存！Loss: 0.9518 | 保存至: best_model.pth 
+正确率: 70/336 
+Epoch [32/500], Loss: 0.9009 
+✅ 最优模型已保存！Loss: 0.9009 | 保存至: best_model.pth 
+正确率: 94/336 
+Epoch [33/500], Loss: 0.8982 
+✅ 最优模型已保存！Loss: 0.8982 | 保存至: best_model.pth 
+正确率: 76/336 
+Epoch [34/500], Loss: 0.8396 
+✅ 最优模型已保存！Loss: 0.8396 | 保存至: best_model.pth 
+正确率: 87/336 
+Epoch [35/500], Loss: 0.9007 
+正确率: 83/336 
+Epoch [36/500], Loss: 0.7734 
+✅ 最优模型已保存！Loss: 0.7734 | 保存至: best_model.pth 
+正确率: 81/336 
+Epoch [37/500], Loss: 0.7717 
+✅ 最优模型已保存！Loss: 0.7717 | 保存至: best_model.pth 
+正确率: 91/336 
