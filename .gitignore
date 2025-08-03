@@ -1,3 +1,6 @@
 data
 src/__pycache__
 torchless/__pycache__
+train_log0.txt
+train_log1.txt
+train_log2.txt

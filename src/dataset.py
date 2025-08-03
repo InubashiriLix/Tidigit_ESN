@@ -196,13 +196,13 @@ def collate_fn(batch):
     # 计算每个样本 MFCC 的真实长度（时间步数）
     mfcc_lengths = torch.tensor([m.shape[0] for m in mfccs], dtype=torch.long)
     # 对 MFCCs 进行 pad，使得形状一致
-    mfccs_padded = pad_sequence(mfccs, batch_first=True, padding_value=0)
+    mfccs_padded = pad_sequence(mfccs, batch_first=True, padding_value=0)  # pyright: ignore[reportArgumentType]
 
     # 对于标签：
     # 如果标签为一维（索引序列），则 pad 后返回；
     # 如果为二维（onehot 矩阵），直接以列表形式返回，保持各自的原始长度
     if labels[0].dim() == 1:
-        labels_processed = pad_sequence(labels, batch_first=True, padding_value=-1)
+        labels_processed = pad_sequence(labels, batch_first=True, padding_value=-1)  # pyright: ignore[reportArgumentType]
     else:
         labels_processed = list(labels)
 
