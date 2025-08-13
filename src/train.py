@@ -5,6 +5,8 @@ import torch.utils.data as data
 import torch.nn.functional as F
 from torch.nn.utils.rnn import pad_sequence
 
+import argparse
+
 import os
 
 from ESN import ESN
@@ -97,6 +99,23 @@ def evaluate(model: ESN, dataloader):
                 break
     return predictions
 
+
+# ...
+def get_cli():
+    ap = argparse.ArgumentParser()
+    ap.add_argument(
+        "--load-export",
+        type=str,
+        default="",
+        help="Path to he100_export.npz (from export_he100_from_torch.py). If set, we load and skip reinit.",
+    )
+    ap.add_argument(
+        "--infer-only", action="store_true", help="Only run eval (no training)."
+    )
+    return ap.parse_known_args()[0]
+
+
+ARGS = get_cli()
 
 if __name__ == "__main__":
     log_file_name_index = 0

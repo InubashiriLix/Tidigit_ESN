@@ -5,3 +5,9 @@ train_log0.txt
 train_log1.txt
 train_log2.txt
 board/__pycache__
+experiments/__pycache__
+train_log_sdk.txt
+experiments/sdk_train_ckpt.pth
+experiments/sdk_train_ckpt.pth.bak
+best_model.pth
+best_model.pth
